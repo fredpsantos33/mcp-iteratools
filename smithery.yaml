@@ -1,0 +1,29 @@
+{
+  "name": "mcp-iteratools",
+  "version": "1.0.0",
+  "description": "MCP server for IteraTools — AI-powered tools with x402 micropayments on Base",
+  "homepage": "https://tools.iterasoft.com",
+  "license": "MIT",
+  "runtime": "node",
+  "command": "mcp-iteratools",
+  "env": {
+    "ITERATOOLS_BASE_URL": {
+      "description": "IteraTools API base URL",
+      "default": "https://tools.iterasoft.com",
+      "required": false
+    },
+    "ITERATOOLS_ADMIN_KEY": {
+      "description": "Admin API key for free access (or leave empty to use x402 payment)",
+      "required": false
+    },
+    "ITERATOOLS_WALLET_KEY": {
+      "description": "x402 payment wallet key for on-chain micropayments",
+      "required": false
+    }
+  },
+  "tools": [
+    "generate_image", "fast_image", "web_search", "scrape_url",
+    "text_to_speech", "screenshot", "qr_code", "weather",
+    "crypto_price", "email_validate", "url_shorten"
+  ]
+}
