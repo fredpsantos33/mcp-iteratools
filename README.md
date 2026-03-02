@@ -2,6 +2,10 @@
 
 MCP server for [IteraTools API](https://iteratools.com) — 20+ AI-powered tools for AI agents, all under a single API key.
 
+<a href="https://glama.ai/mcp/servers/@fredpsantos33/mcp-iteratools">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@fredpsantos33/mcp-iteratools/badge" alt="mcp-iteratools MCP server" />
+</a>
+
 ## Tools Available
 
 | Tool | Description | Price |
