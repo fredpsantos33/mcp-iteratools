@@ -1,0 +1,25 @@
+{
+  "name": "mcp-iteratools",
+  "version": "1.0.0",
+  "description": "MCP server for IteraTools API — 19 AI-powered tools with x402 micropayments",
+  "main": "index.js",
+  "bin": {
+    "mcp-iteratools": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "iteratools",
+    "ai",
+    "tools",
+    "x402"
+  ],
+  "author": "IteraSoft",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "node-fetch": "^3.3.2"
+  }
+}
